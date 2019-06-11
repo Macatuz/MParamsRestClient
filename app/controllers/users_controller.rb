@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   def index
-    
+      @users = %w[isaac armando]
   end
   def create
     
@@ -15,9 +15,8 @@ class UsersController < ApplicationController
     
   end
   def update
-    //PATCH
   end
-  def destroy id
+  def destroy
 
   end
 end
